@@ -9,3 +9,16 @@ console.log(num1);
 //false -> 0
 
 //String(), Boolean() ...
+
+
+console.log(1 + 2 + "3");
+// output -> 33
+
+console.log("1" + 2 + 3);
+// output -> 123
+// if string is in leftmost, all the other values are also converted to string
+
+
+//equality check(==) works different than comparisons (>, <, >=, <=)
+// null == 0 -> false
+// null >= 0 -> true, comparison converts null to number, treating it as 0
