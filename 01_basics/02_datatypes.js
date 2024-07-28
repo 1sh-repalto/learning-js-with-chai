@@ -27,3 +27,10 @@
 
     Non-Primitive / Reference : Arrays, Objects, Functions
 */
+
+/*
+    MEMORY
+
+    Stack : storing primitive data types
+    Heap : storing non-primitive data types
+*/
