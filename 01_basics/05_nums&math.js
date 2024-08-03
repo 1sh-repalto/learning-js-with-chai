@@ -23,7 +23,7 @@ console.log(Math.round(5.4999999)); // other ways -> ceil, floor
 
 console.log(Math.min(4,6,7,9,1)); //similarly, Math.max()
 
-console.log(Math.random()); // generates a random number between 0 and 
+console.log(Math.random()); // generates a random number between 0 and 1
 
 // trick to get random values in a range
 const min = 5;
