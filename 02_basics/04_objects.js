@@ -20,3 +20,13 @@ console.log(finalObj2);
 
 console.log(Object.keys(user)); // returns an array of keys in form of strings
 console.log(Object.values(user)); // returns an array of values in their respective datatype
+
+// Destructuring an object
+const book = {
+    book_title: 'The Alchemist',
+    book_writer: 'Paulo Coelho',
+    book_price: 340
+};
+
+const {book_title: title} = book; // extracting book_title from book and storing in variable 'title'
+console.log(title);
